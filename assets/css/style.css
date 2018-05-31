@@ -1,0 +1,244 @@
+* {
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0; 
+    margin-left: 0;
+    margin-right: 0;
+}
+html {
+    height: 100%;
+    margin: 0;
+    margin-left: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: flex;
+    clear: both; 
+}
+header {
+    padding: 29px;
+    clear: both;
+    width:100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:0;
+    border-bottom: solid grey ;
+}
+.main-header {
+    background-color: white;
+    width: 100%;
+    position: relative;
+    overflow: auto;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow: hidden;
+    height:80px;
+    margin-left: 0;
+}
+h1{
+    position: absolute;
+    background-color:#4aaaa5;
+    width: 250px;
+    height:80px;
+    text-align: center;
+    line-height: 80px;
+    left: 200px;
+    bottom: 5px;
+    margin: 0 auto;
+    top: 0px;
+    color:#ffff;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.links{
+    position: absolute;
+    top: 0px;
+    right: 230px;
+    font-size: 20px;
+    text-decoration: none;
+}
+body{
+    background-color:lightgrey;
+    width: 100%;
+}
+.about-container{
+    background-color: #ffff;
+    overflow:hidden;
+    position: fixed;
+    left: 200px;
+    float: left;
+    width: 960px;
+    height: 400px;
+    top: 100px;
+    margin-top: 20px;
+    margin: auto;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+    word-spacing: 3px;
+    font-size: 17px;
+}
+hr{
+    width: 90%;
+    margin-left: 48px;
+    position: relative;
+    overflow: auto;
+
+    
+}
+#A{
+  position: absolute;
+  bottom: -50px;
+  right: 130px;
+}
+#C{
+  position: absolute;
+  bottom: -50px;
+  right: 50px;
+  text-decoration: none;
+}
+#P{
+    position: absolute;
+    bottom: -50px;
+    right:-29px;
+}
+#About-me{
+    position: relative;
+    top: 18px;
+    left: 32px;
+    margin: 15px;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+footer{
+    background-color: #666666;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    margin-left: 0;
+    left: 0px;
+    border-top: 10px solid #4aaaa5;
+    margin-top: 40px;
+    
+}
+#picofme{
+    position: relative;
+    left: 48px;
+}
+#aboutme-content{
+    position: relative; 
+    left:48px;
+}
+#picofme{
+    float: left;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: grey;
+    margin-top: 15px color: #4aaaa5;
+}
+.container {
+    background-color: white;
+    width: 960px;
+    top: 10px;
+    margin-top: 20px;
+    position: relative;
+    
+}
+.contact-box{
+    position: relative;
+    left: 48px;
+    margin: 0;
+    border-color: lightgray;
+}
+.contact-container{
+    background-color: white;
+    width: 960px;
+    height: 380px;
+    top: 10px;
+    margin-top: 20px;
+    position: relative;
+    margin: auto;
+    
+}
+.portfolio-container{
+    background-color: white;
+    width: 960px;
+    height: 420px;
+    top: 10px;
+    margin-top: 20px;
+    position: relative;
+    margin: auto;
+    overflow: auto;
+    min-height: 100%;
+}
+input{
+    height: 40px;
+    width:90%;
+}
+#submit{
+    width: 10%;
+    color: #4aaaa5;
+
+}
+.boxes {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: auto;
+    display: flex;
+
+    
+}
+
+.left-side-boxes {
+    float: left;
+    margin-left: 48px;
+    margin-right: 0;
+    margin-bottom: 40px;
+}
+
+.right-side-boxes {
+    float: right;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+#box-1,
+#box-2,
+#box-3,
+#box-4,
+#box-5 {
+    height: 200px;
+    width: 200px;
+    background-image: url("/images/pubg.jpg")
+
+}
+#box-3text{
+    font-size: 18px;
+    background-color: #4aaaa5;
+    padding: 20px;
+    width: 200px;
+    margin-left: -8px;
+    margin-top: 110px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+#box-1text,
+#box-2text,
+#box-4text,
+#box-5text {
+    background-color: #4aaaa5;
+    padding: 20px;
+    width: 200px;
+    margin-left: -8px;
+    margin-top: 110px;
+    color: white;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
