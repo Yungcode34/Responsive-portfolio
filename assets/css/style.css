@@ -215,18 +215,25 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
-@media screen and (max-width: 980px){
-  body{
+@media only screen and (max-width: 640px) and (max-width: 767px) {
+  #content, #header-name, #header-navigation, #header-container {
     width: 100%;
   }
-}
-@media screen and (max-width: 768px){
-  body{
+  
+  #header {
+    height: auto;
+  }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 979px) {
+  #content, #header-container {
     width: 100%;
   }
-}
-@media screen and (max-width: 640px){
-  body{
-    width: 100%;
+  
   }
-}
+  
+  @media only screen and (min-width: 980px) {
+  #content {
+    width: 600px;
+  }
+  }
